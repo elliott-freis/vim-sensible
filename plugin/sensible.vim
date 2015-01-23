@@ -34,8 +34,10 @@ if maparg('<C-L>', 'n') ==# ''
 endif
 
 set laststatus=2
-set ruler
-set showcmd
+"set ruler
+" ^disabling for airline
+"set showcmd
+" ^disabling for airline
 set wildmenu
 
 if !&scrolloff
